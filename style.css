@@ -130,7 +130,7 @@ input[type="text"] {
 }
 
 /* Completed */
-#main__complete label {
+#main__elem_complete label {
     text-decoration: line-through;
     color: #888;
 }
