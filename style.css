@@ -4,24 +4,24 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
-.centered-header-page-element {
+.header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.centered-header-page-element img {
+.header img {
     width: 100%;
 }
-.centered-header-page-element .more_inf {
+.header .header__more_in {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.centered-header-page-element { text-align: center;
+.header { text-align: center;
 }
 }
-.centered-main-page-element {
+.main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -128,7 +128,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#main__complete label {
     text-decoration: line-through
     color: #888;
 }
@@ -138,11 +138,11 @@ ul li input[type="text"] {
     display:none
 }
 
-ul li.edit-mode input[type="text"] {
+ul li.edit input[type="text"] {
     display:inline-block;
     width:224px
 }
 
-ul li.edit-mode label {
+ul li.edit label {
     display:none;
 }
