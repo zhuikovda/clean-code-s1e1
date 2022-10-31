@@ -13,7 +13,7 @@ body {
 .header img {
     width: 100%;
 }
-.header .header__more_in {
+.header__more_inf {
     font-family: fantasy, cursive;
 }
 
@@ -106,43 +106,43 @@ li > * {
     vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+input[type="checkbox"] {
     margin: 0 10px;
 }
-li > label {
+.new-task {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
+input[type="text"] {
     width: 226px
 }
-button.delete img {
+.delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.delete img:hover {
     transform: rotateZ(0);
 }
 
 /* Completed */
-ul#main__complete label {
+#main__complete label {
     text-decoration: line-through
     color: #888;
 }
 
 /* Edit Task */
-ul li input[type="text"] {
+ul input[type="text"] {
     display:none
 }
 
-ul li.edit input[type="text"] {
+.edit input[type="text"] {
     display:inline-block;
     width:224px
 }
 
-ul li.edit label {
+.edit label {
     display:none;
 }
