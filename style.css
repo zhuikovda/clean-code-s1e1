@@ -29,7 +29,7 @@ body {
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .task-row-wrapper {
     display: flex;
@@ -116,7 +116,7 @@ input[type="checkbox"] {
     width: 226px;
 }
 input[type="text"] {
-    width: 226px
+    width: 226px;
 }
 .delete img {
     height: 2em;
@@ -129,18 +129,18 @@ input[type="text"] {
 
 /* Completed */
 #main__complete label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
 ul input[type="text"] {
-    display: none
+    display: none;
 }
 
 .edit input[type="text"] {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 .edit label {
